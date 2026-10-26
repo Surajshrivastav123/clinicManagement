@@ -10,7 +10,7 @@ public class WelcomeController {
 
     @GetMapping("/hello")
     public ResponseEntity<Void> hello() {
-        System.out.println("Hello");
+        System.out.println("Helloooo");
         return ResponseEntity.ok().build();
     }
 }
